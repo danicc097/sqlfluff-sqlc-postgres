@@ -1,0 +1,7 @@
+[sqlfluff]
+templater=sqlfluff-sqlc-postgres
+
+[sqlfluff:templater:sqlfluff-sqlc-postgres]
+param_style=sqlc
+autofill_missing_params=True
+explicit_param='explicit_param'
